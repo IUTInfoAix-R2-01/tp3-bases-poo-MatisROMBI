@@ -45,4 +45,8 @@ public class Book {
 	public String toString() {
 		return "Book[name=" + name + ", " + author + ", price=" + price + ", qty=" + qty + "]";
 	}
+	
+	public String getAuthorName() {
+		return author.getName()
+;	}
 }

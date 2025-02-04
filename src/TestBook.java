@@ -19,5 +19,7 @@ public class TestBook {
 		Book anotherBook = new Book("more Java", 
 				new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
 		System.out.println(anotherBook);
+		
+		System.out.println(anotherBook.getAuthorName());
 	}
 }
